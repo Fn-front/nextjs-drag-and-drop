@@ -24,6 +24,7 @@
     "eslint-config-next": "^15.0.2",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react": "^7.37.2",
+    "nanoid": "^5.0.8",
     "prettier": "^3.3.3",
     "sass": "^1.77.6",
     "typescript": "^5"
