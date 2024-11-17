@@ -1,7 +1,8 @@
 'use client';
 
 import { useCallback } from 'react';
-import { FileRejection, useDropzone } from 'react-dropzone';
+import type { FileRejection } from 'react-dropzone';
+import { useDropzone } from 'react-dropzone';
 import { useFileUploader } from '@/functions/hooks/useFileUploader';
 import { FilePreview } from '@/components/FilePreview';
 import { MAX_FILES, MAX_FILE_SIZE, ACCEPTED_FILE_TYPES, ERROR_MESSAGES } from '@/functions/constants';
