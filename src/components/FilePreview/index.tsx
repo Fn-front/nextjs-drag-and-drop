@@ -7,6 +7,7 @@ interface FilePreviewProps {
   onRemove: (id: string) => void;
 }
 
+// eslint-disable-next-line react/prop-types
 export const FilePreview: React.FC<FilePreviewProps> = ({ file, onCancel, onRemove }) => {
   const isImage = file!.file.type.startsWith('image/');
 
