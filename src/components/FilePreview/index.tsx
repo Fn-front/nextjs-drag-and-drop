@@ -28,7 +28,7 @@ export const FilePreview: React.FC<FilePreviewProps> = ({ file, onCancel, onRemo
         )}
 
         <div className='mt-2'>
-          <p className='text-sm font-medium truncate'>{file!.file.name}</p>
+          <p className='text-sm font-medium truncate text-black'>{file!.file.name}</p>
           {!file!.isUploaded && (
             <div className='mt-2'>
               <div className='h-2 bg-gray-200 rounded-full overflow-hidden'>
