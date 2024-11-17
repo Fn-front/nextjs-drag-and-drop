@@ -1,7 +1,9 @@
+import FileUploader from '@/features/fileUploader'
+
 export default function Home() {
   return (
     <>
-      <h2 className="c_h2">テンプレ</h2>
+      <FileUploader />
     </>
   );
 }
